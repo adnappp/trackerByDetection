@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1f0f8409-27c1-4d16-952c-07ff97618c89" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/correlation_tracker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video_detection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../data/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/demo/000456.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/demo/000542.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/demo/001150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/demo/001763.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/demo/004545.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/imgs/gt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/imgs/pred.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/scripts/fetch_faster_rcnn_models.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../data/scripts/fetch_faster_rcnn_models.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/Dockerfile.cuda-7.5" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/Dockerfile.cuda-7.5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/Dockerfile.cuda-8.0" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/Dockerfile.cuda-8.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../experiments/cfgs/mobile.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../experiments/cfgs/mobile.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../experiments/cfgs/res101-lg.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../experiments/cfgs/res101-lg.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../experiments/cfgs/res101.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../experiments/cfgs/res101.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../experiments/cfgs/res50.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../experiments/cfgs/res50.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../experiments/cfgs/vgg16.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../experiments/cfgs/vgg16.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../experiments/logs/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../experiments/logs/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../experiments/scripts/convert_vgg16.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../experiments/scripts/convert_vgg16.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../experiments/scripts/test_faster_rcnn.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../experiments/scripts/test_faster_rcnn.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../experiments/scripts/train_faster_rcnn.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../experiments/scripts/train_faster_rcnn.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/datasets/VOCdevkit-matlab-wrapper/get_voc_opts.m" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/datasets/VOCdevkit-matlab-wrapper/get_voc_opts.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/datasets/VOCdevkit-matlab-wrapper/voc_eval.m" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/datasets/VOCdevkit-matlab-wrapper/voc_eval.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/datasets/VOCdevkit-matlab-wrapper/xVOCap.m" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/datasets/VOCdevkit-matlab-wrapper/xVOCap.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/datasets/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/datasets/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/datasets/coco.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/datasets/coco.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/datasets/ds_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/datasets/ds_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/datasets/factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/datasets/factory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/datasets/imdb.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/datasets/imdb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/datasets/pascal_voc.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/datasets/pascal_voc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/datasets/tools/mcg_munge.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/datasets/tools/mcg_munge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/datasets/voc_eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/datasets/voc_eval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/layer_utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/layer_utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/layer_utils/anchor_target_layer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/layer_utils/anchor_target_layer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/layer_utils/generate_anchors.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/layer_utils/generate_anchors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/layer_utils/proposal_layer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/layer_utils/proposal_layer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/layer_utils/proposal_target_layer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/layer_utils/proposal_target_layer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/layer_utils/proposal_top_layer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/layer_utils/proposal_top_layer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/layer_utils/snippets.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/layer_utils/snippets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/model/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/model/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/model/bbox_transform.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/model/bbox_transform.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/model/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/model/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/model/nms_wrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/model/nms_wrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/model/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/model/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/model/train_val.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/model/train_val.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/nets/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/nets/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/nets/mobilenet_v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/nets/mobilenet_v1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/nets/network.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/nets/network.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/nets/resnet_v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/nets/resnet_v1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/nets/vgg16.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/nets/vgg16.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/nms/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/nms/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/nms/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/nms/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/nms/cpu_nms.c" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/nms/cpu_nms.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/nms/cpu_nms.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/nms/cpu_nms.pyx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/nms/gpu_nms.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/nms/gpu_nms.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/nms/gpu_nms.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/nms/gpu_nms.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/nms/gpu_nms.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/nms/gpu_nms.pyx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/nms/nms_kernel.cu" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/nms/nms_kernel.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/nms/py_cpu_nms.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/nms/py_cpu_nms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/roi_data_layer/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/roi_data_layer/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/roi_data_layer/layer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/roi_data_layer/layer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/roi_data_layer/minibatch.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/roi_data_layer/minibatch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/roi_data_layer/roidb.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/roi_data_layer/roidb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/utils/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/utils/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/utils/bbox.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/utils/bbox.pyx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/utils/blob.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/utils/blob.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/utils/timer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/utils/timer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/utils/visualization.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/utils/visualization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_init_paths.py" beforeDir="false" afterPath="$PROJECT_DIR$/_init_paths.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-378101064">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="2091" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="2091" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cowTracker.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="57" column="45" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/muti_tracker.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="36" column="27" lean-forward="true" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+                <marker date="1541490226183" expanded="true" signature="2633:2869" ph="..." />
+                <marker date="1541490226183" expanded="true" signature="2909:2918" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/correlation_tracker.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/cowTracker.py" />
+        <option value="$PROJECT_DIR$/muti_tracker.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="1853" />
+    <option name="height" value="1055" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f0f8409-27c1-4d16-952c-07ff97618c89" name="Default Changelist" comment="" />
+      <created>1540172018708</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540172018708</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18777293" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cowTracker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="57" column="45" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/correlation_tracker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/muti_tracker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="36" column="27" lean-forward="true" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+            <marker date="1541490226183" expanded="true" signature="2633:2869" ph="..." />
+            <marker date="1541490226183" expanded="true" signature="2909:2918" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
