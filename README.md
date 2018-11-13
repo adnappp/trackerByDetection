@@ -1,2 +1,2 @@
 # trackerByDetection
-diib tracker and faster rcnn dection
+kalman tracker and faster rcnn dection
